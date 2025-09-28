@@ -1,6 +1,6 @@
 # Léeme primero
 
-Este proyecto utiliza **Maven** y **Docker Compose** para su construcción y ejecución.  
+Este proyecto utiliza **Spring Boot**, **Apache Kafka**, **Apache Kafka Raft (sin ZooKeeper)**, **Maven** y **Docker** para su construcción y ejecución.  
 A continuación se detallan los pasos necesarios para levantar el entorno.
 
 ---
@@ -19,4 +19,4 @@ A continuación se detallan los pasos necesarios para levantar el entorno.
 3. **Ejecutar el contendor**  
 
    ```bash
-   docker-compose up
+   docker-compose up -d
